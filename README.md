@@ -1,6 +1,5 @@
 # 📚 CSCI 1933: My Data Structures & Algorithms Journey
 
-[![University](https://img.shields.io/badge/University-U._of_Minnesota-9F1C33.svg)](https://twin-cities.umn.edu/)
 [![Course](https://img.shields.io/badge/Course-CSCI_1933-FFCC33.svg)](https://umntc.catalog.acalog.com/preview_course.php?catoid=29&coid=518041)
 [![Language](https://img.shields.io/badge/Language-Java-orange.svg)](#)
 

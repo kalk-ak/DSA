@@ -1,4 +1,4 @@
-# 📚 CSCI 1933: My Data Structures & Algorithms Journey
+# 📚 Data Structures & Algorithms Journey
 
 [![Course](https://img.shields.io/badge/Course-CSCI_1933-FFCC33.svg)](https://umntc.catalog.acalog.com/preview_course.php?catoid=29&coid=518041)
 [![Language](https://img.shields.io/badge/Language-Java-orange.svg)](#)
@@ -7,26 +7,25 @@
 
 ## 🚀 Welcome!
 
-This repository documents my work and learning progression through **CSCI 1933: Introduction to Data Structures and Algorithms** at the University of Minnesota.
+This repository documents my work and learning progression through Data Structures and Algorithms from various online resoureces and courses.
 
-It serves as a personal archive of the many projects, labs, and exercises I completed. More than just a collection of files, this repo tells the story of my journey in learning how to build and analyze the fundamental building blocks of modern software.
+It serves as a personal archive of the many projects, labs, exercises, and various implementations of Data Structures and Algorithms.
 
 
 
 ## 🎓 About the Course
 
-CSCI 1933 is a foundational computer science course focused on Abstract Data Types (ADTs) and the core structures used to implement them. The curriculum provided a deep dive into:
+Data Structures uses/learned through out the journey
 
-* **Linear Structures:** Arrays, Linked Lists, Stacks, and Queues
-* **Non-Linear Structures:** Trees, Binary Search Trees, Heaps, and Hash Tables
+* **Linear Structures:** Arrays, Linked Lists, Stacks, Queues, Priority Queues
+* **Non-Linear Structures:** Trees, Binary Search Trees, Self-Balancing Trees, Heaps, Maps, Tries, and Hash Tables
 * **Algorithmic Analysis:** Understanding Big O notation ($O(n)$) and analyzing the time and space efficiency of algorithms.
 * **Core Concepts:** Recursion, generics, and object-oriented design principles.
-* **Sorting & Searching:** Implementing and analyzing various sorting algorithms.
+* **Sorting & Searching:** Implementing and analyzing various sorting and searching algorithms.
 
 ## 📁 What's Inside This Repository?
 
-This repository is structured by the projects and labs from the course. Each directory contains the source code for a specific assignment, demonstrating the practical implementation of a new data structure or algorithm.
-
+This repository contains most of the codes that i've written in my journey through out learning DSA.
 > **Note:** This repository is a historical record of my learning process. The code reflects my understanding of the concepts at the time it was written.
 
 ### Key Projects

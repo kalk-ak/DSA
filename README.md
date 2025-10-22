@@ -1,6 +1,5 @@
 # 📚 Data Structures & Algorithms Journey
 
-[![Course](https://img.shields.io/badge/Course-CSCI_1933-FFCC33.svg)](https://umntc.catalog.acalog.com/preview_course.php?catoid=29&coid=518041)
 [![Language](https://img.shields.io/badge/Language-Java-orange.svg)](#)
 
 ---

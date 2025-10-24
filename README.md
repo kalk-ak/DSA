@@ -70,9 +70,9 @@ This section highlights four of the main projects I've built, showing how I've a
 | :--- | :--- |
 | **Goal** | Apply **Stack** and **Queue** data structures to solve complex traversal problems. |
 | **Description** | I created a clone of the classic Minesweeper game. The main challenge was using two different algorithms—DFS and BFS—to handle revealing the board. |
-| **Key Features** | I used a **Queue** (for a Breadth-First Search) to implement the `revealStartingArea()` function, which safely uncovers an initial patch of the board. I then used a **Stack** (for a Depth-First Search) in `revealZeroes()` to recursively clear all surrounding empty squares. I also added **ANSI Color Codes** to make the terminal output more dynamic. |
+| **Key Features** | I used a **Queue** (for a Breadth-First Search) to implement the `revealStartingArea()` function, which safely uncovers an initial patch of the board. I then used a **Stack** (for a Dep**Visual:**
+th-First Search) in `revealZeroes()` to recursively clear all surrounding empty squares. I also added **ANSI Color Codes** to make the terminal output more dynamic. |
 | **Concepts** | **Stacks**, **Queues**, **Breadth-First Search (BFS)**, **Depth-First Search (DFS)**, **2D Arrays**. |
 
-**Visual:**
 
 ---

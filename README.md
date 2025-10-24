@@ -16,7 +16,7 @@ The projects here focus on building and using key areas of computer science. Her
 
 * **Linear Structures:** Arrays, **Linked Lists**, **Stacks**, **Queues**, and Priority Queues.
 * **Non-Linear Structures:** Trees, Binary Search Trees, Heaps, Maps, and Hash Tables.
-* **Algorithmic Analysis:** Getting hands-on practice with **Big O notation** ($O(n)$) to analyze the time and space efficiency of my code.
+* **Algorithmic Analysis:** Getting practice with **Big O notation** to analyze the time and space efficiency of my code.
 * **Fundamental Principles:** **Recursion**, generics, and core object-oriented design patterns.
 
 ---

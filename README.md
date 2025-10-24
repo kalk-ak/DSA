@@ -6,90 +6,77 @@
 
 ## 👋 Welcome!
 
-This repository documents my work and learning progression through **Data Structures and Algorithms** (DSA) from various online resources and courses.
-
-It serves as a personal archive of the many projects, labs, exercises, and implementations of core DSA concepts.
+This repository documents my work and learning progression through **Data Structures and Algorithms** (DSA) from various online resources and courses. It serves as a personal archive of the many projects, labs, exercises, and fundamental implementations of core DSA concepts.
 
 ---
 
-## 💡 About the Course
+## 💡 Core Concepts Explored
 
-The projects in this repository focus on implementing and utilizing the following core concepts:
+The projects in this repository focus on implementing and utilizing the following key areas of computer science:
 
-* **Linear Structures:** Arrays, **Linked Lists**, **Stacks**, **Queues**, Priority Queues
-* **Non-Linear Structures:** Trees, Binary Search Trees, Self-Balancing Trees, Heaps, Maps, Tries, and Hash Tables
-* **Algorithmic Analysis:** Understanding **Big O notation** ($O(n)$) and analyzing the time and space efficiency of algorithms.
-* **Core Concepts:** **Recursion**, generics, and object-oriented design principles.
-* **Sorting & Searching:** Implementing and analyzing various sorting and searching algorithms.
+* **Linear Structures:** Arrays, **Linked Lists**, **Stacks**, **Queues**, and Priority Queues.
+* **Non-Linear Structures:** Trees, Binary Search Trees, Heaps, Maps, and Hash Tables.
+* **Algorithmic Analysis:** Practical application of **Big O notation** ($O(n)$) to analyze the time and space efficiency of algorithms.
+* **Fundamental Principles:** **Recursion**, generics, and core object-oriented design patterns.
 
 ---
 
-## 🛠️ What's Inside This Repository?
+## 🛠️ Key Projects Portfolio
 
-This repository contains most of the code I've written in my journey through learning DSA.
-
-> **Note:** This repository is a historical record of my learning process. The code reflects my understanding of the concepts at the time it was written.
-
-### Key Projects
-
-Here are some of the major projects you'll find inside:
+This section highlights the four major projects in this repository, demonstrating practical implementation of the concepts listed above.
 
 ### 1. 🎨 Fractal Drawer (Project 1)
 
-* **Description:** An application that uses **recursion** to generate and draw intricate **fractal patterns** composed of circles, triangles, and rectangles. The program constructs the fractal pattern by repeatedly drawing smaller shapes on the corners/sides of the existing ones.
-* **Key Features:**
-    * [cite_start]Implemented three shape classes: `Circle.java`, `Triangle.java`, and `Rectangle.java`[cite: 363, 364, 365].
-    * [cite_start]Used a recursive method to generate a pattern that repeats on itself at least 7 times[cite: 539, 540].
-    * [cite_start]Computed and printed the total area of all drawn shapes[cite: 543].
-* [cite_start]**Key Concepts:** **Object-Oriented Programming (OOP)**, **Classes and Methods**, **Recursion**[cite: 499], **Geometric Calculations**.
-* **Technologies:** Java, `java.awt.Color`.
-* **Visual:** 
+| Detail | Description |
+| :--- | :--- |
+| **Goal** | Implement OOP principles and recursion to draw complex geometric patterns. |
+| **Description** | [cite_start]An application that uses **recursion** to generate and draw intricate **fractal patterns** composed of circles, triangles, and rectangles[cite: 824]. [cite_start]The recursive function repeatedly draws smaller shapes based on the position and size of the existing ones[cite: 966, 1006]. |
+| **Key Features** | [cite_start]Implemented three foundational shape classes (`Circle.java`, `Triangle.java`, `Rectangle.java`)[cite: 828, 829, 830]. [cite_start]The fractal must repeat itself at least 7 times, using a new color in each layer[cite: 1004]. |
+| **Concepts** | **Object-Oriented Programming (OOP)**, **Classes and Methods**, **Recursion**, **Geometric Calculations**. |
+
+**Visual:** 
+
+---
+
 ### 2. ♟️ Simplified Chess Game (Project 2)
 
-* **Description:** A command-line implementation of a simplified two-player game of chess. The game logic manages piece movement, board state, and enforces movement rules for all standard pieces.
-* **Key Features:**
-    * [cite_start]Utilized a **2D array of `Piece` objects** (`Board.java`) to represent the chess board[cite: 643, 684].
-    * [cite_start]Implemented full movement legality checks for **Rook, Knight, Bishop, Queen, and King**[cite: 646, 647, 648, 649, 650, 793, 795].
-    * [cite_start]Includes helper methods for verifying movement paths (e.g., `verifyHorizontal()`, `verifyDiagonal()`)[cite: 699, 701].
-    * [cite_start]Used **Unicode characters** to display pieces in the terminal[cite: 725].
-    * [cite_start]Game ends when one player's King is captured[cite: 755].
-* **Key Concepts:** **2D Arrays**, **Inheritance/Polymorphism** (with `Piece` class), **OOP**, **Terminal I/O**.
-* **Technologies:** Java.
-* **Visual:** 
+| Detail | Description |
+| :--- | :--- |
+| **Goal** | Utilize **2D arrays** and **polymorphism** to model and enforce game rules. |
+| **Description** | [cite_start]A command-line implementation of a simplified two-player game of chess[cite: 576]. [cite_start]The game logic manages piece movement, board state, and enforces movement rules for all standard pieces[cite: 577, 600]. |
+| **Key Features** | [cite_start]The board is represented by a **2D array of `Piece` objects** (`Board.java`)[cite: 618, 619]. [cite_start]Implemented full movement legality checks for Rook, Knight, Bishop, Queen, and King[cite: 725]. [cite_start]Used **Unicode characters** to display pieces in the terminal[cite: 659, 665]. |
+| **Concepts** | **2D Arrays**, **Inheritance/Polymorphism**, **Object-Oriented Design**, **Terminal I/O**. |
+
+**Visual:** 
+
 ---
 
 ### 3. 🔗 Custom Lists: ArrayList vs. LinkedList (Project 3)
 
-* **Description:** From-scratch implementations of two fundamental linear data structures: **ArrayList** (backed by a dynamic array) and **LinkedList** (using a generic node system). This project emphasizes the differences in their underlying mechanisms.
-* **Key Features:**
-    * [cite_start]Both classes (`ArrayList.java` and `LinkedList.java`) implement the generic `List<T>` interface[cite: 912, 942, 968].
-    * [cite_start]Implemented 16 core list methods, including sorting, reversing, and duplicate removal[cite: 921, 928, 930, 931].
-    * [cite_start]**ArrayList** features **dynamic resizing** (doubling array length when full)[cite: 992].
-    * [cite_start]**LinkedList** sorting is performed **without converting to an array**[cite: 962].
-* [cite_start]**Key Concepts:** **Interfaces**, **Generics**, **ArrayLists**, **LinkedLists**, **Big O Notation** (Runtime Analysis)[cite: 1013].
-* **Technologies:** Java.
-* **Visual:** 
+| Detail | Description |
+| :--- | :--- |
+| **Goal** | Implement and compare the core functionality and runtime efficiency of two primary linear data structures. |
+| **Description** | [cite_start]From-scratch implementations of a **dynamic array-backed list** (`ArrayList`) and a **generic node-based list** (`LinkedList`)[cite: 94]. This project highlights the contrasting mechanisms of linear structures. |
+| **Key Features** | [cite_start]Both classes implement the generic `List<T>` interface[cite: 90]. [cite_start]**ArrayList** features **dynamic resizing** (doubling array length when full)[cite: 170]. [cite_start]Includes a comparative **Big O runtime analysis** for methods like `add()`, `getMax()`, `reverse()`, and `removeDuplicates()`[cite: 196, 204]. |
+| **Concepts** | **Interfaces**, **Generics**, **ArrayLists**, **LinkedLists**, **Big O Notation** (Runtime Analysis), **Time/Space Efficiency**. |
+
+**Visual:** 
+
 ---
 
 ### 4. 💣 Minefield (Minesweeper Clone) (Project 4)
 
-* **Description:** An implementation of the classic Minesweeper game, focusing on the powerful use of **Stack and Queue** data structures to efficiently reveal areas of the minefield.
-* **Key Features:**
-    * [cite_start]Uses a **Queue** (Breadth-First Search/BFS) in `revealStartingArea()` to reveal the initial board area until a mine is reached[cite: 229, 230].
-    * [cite_start]Uses a **Stack** (Depth-First Search/DFS) in `revealZeroes()` to automatically reveal all adjacent empty and numbered squares when a '0' is clicked[cite: 196, 198].
-    * [cite_start]Implements game logic including mine placement, flagging, and win/loss conditions[cite: 84, 87].
-    * [cite_start]Enhanced terminal output using **ANSI Color Codes** for an improved user experience[cite: 252, 253, 269].
-* [cite_start]**Key Concepts:** **Stacks**, **Queues**, **Breadth-First Search (BFS)** [cite: 248][cite_start], **Depth-First Search (DFS)**[cite: 225], **2D Arrays**.
-* **Technologies:** Java, ANSI Color Codes.
-* **Visual:** 
----
+| Detail | Description |
+| :--- | :--- |
+| **Goal** | Apply **Stack** and **Queue** data structures to solve complex recursive/iterative traversal problems. |
+| **Description** | [cite_start]An implementation of the classic Minesweeper game, utilizing two distinct algorithms—DFS and BFS—to handle board revelations[cite: 295, 311]. |
+| **Key Features** | [cite_start]Uses a **Queue** (Breadth-First Search/BFS) in `revealStartingArea()` to safely reveal an initial area of the board until a mine is found[cite: 444, 451]. [cite_start]Uses a **Stack** (Depth-First Search/DFS) in `revealZeroes()` to recursively reveal all surrounding empty squares[cite: 411, 419]. [cite_start]Terminal output is enhanced using **ANSI Color Codes** for a dynamic user experience[cite: 467, 484]. |
+| **Concepts** | **Stacks**, **Queues**, **Breadth-First Search (BFS)**, **Depth-First Search (DFS)**, **2D Arrays**. |
 
-## 🌟 A Record of Learning
-
-This course was a fantastic experience. The projects challenged me to not only *use* data structures, but to *build them from the ground up*. This repository stands as a testament to that journey—from basic array manipulations to implementing complex, efficient, and well-designed data structures.
-
-Feel free to browse the code!
+**Visual:** 
 
 ---
 
-Would you like to review this content, or would you like me to generate a section with instructions on how to **compile and run** these Java projects?
+This README is now ready to be placed in your main repository!
+
+Would you like me to draft a short section on **how to compile and run** these Java projects locally?
